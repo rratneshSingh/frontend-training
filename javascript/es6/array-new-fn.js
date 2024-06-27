@@ -24,6 +24,14 @@ const findedValue = arr.find((item)=>{
 
 console.log(findedValue);
 
+
+// Finding Index
+const index = arr.find((item)=>{
+    return item%3 === 0;
+});
+
+console.log(index);
+
 // Some Check
 
 const some = arr.some((item)=>{
